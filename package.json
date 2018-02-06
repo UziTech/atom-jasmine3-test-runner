@@ -1,7 +1,7 @@
 {
-  "name": "atom-jasmine2-test-runner",
+  "name": "atom-jasmine3-test-runner",
   "version": "2.0.0",
-  "description": "Run your Atom package tests using Jasmine 2.x",
+  "description": "Run your Atom package tests using Jasmine 3.x",
   "repository": "https://github.com/UziTech/atom-jasmine2-test-runner",
   "main": "index.js",
   "atomTestRunner": "./spec/runner",
@@ -16,12 +16,12 @@
   "author": "Tony Brix",
   "license": "MIT",
   "dependencies": {
-    "etch": "^0.12.6",
+    "etch": "^0.12.8",
     "find-parent-dir": "^0.3.0",
-    "glob": "^7.1.1",
-    "grim": "^2.0.1",
-    "jasmine": "~2.9.0",
-    "semver": "^5.4.1",
+    "glob": "^7.1.2",
+    "grim": "^2.0.2",
+    "jasmine": "~3.0.0",
+    "semver": "^5.5.0",
     "underscore-plus": "^1.6.6"
   }
 }
