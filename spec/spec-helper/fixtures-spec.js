@@ -8,7 +8,8 @@ describe("fixtures", function () {
 	});
 
 	it("should resolve this package to this path", function () {
-		expect(path.resolve(atom.packages.resolvePackagePath("atom-jasmine2-test-runner"))).toBe(path.resolve(__dirname, "../../"));
+		var packagePath = atom.packages.resolvePackagePath("atom-jasmine3-test-runner");
+		expect(path.resolve(packagePath)).toBe(path.resolve(__dirname, "../../"));
 	});
 
 	it("should resolve a regular package", function () {
