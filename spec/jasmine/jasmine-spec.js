@@ -1,8 +1,8 @@
 /** @babel */
 
-// jasmine 2.7 tests https://jasmine.github.io/2.7/introduction.html
+// jasmine 2.9 tests https://jasmine.github.io/2.9/introduction.html
 
-describe("Jasmine 2.x", function () {
+describe("Jasmine 3.x", function () {
 	beforeEach(function () {
 		if (jasmine.useRealClock) {
 			jasmine.useRealClock();
