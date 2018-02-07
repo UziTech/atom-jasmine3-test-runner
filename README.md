@@ -109,8 +109,6 @@ Returns a test runner created with the given `options` and `callback`. Both para
 #### Spec Helpers
 This will include Atom's [spec-helper](http://flight-manual.atom.io/hacking-atom/sections/writing-specs/#custom-matchers).
 
-:construction::rotating_light: This is experimental. Some things might not work the way they are supposed to. :rotating_light::construction:
-
 The `specHelper` option can be set to `true` to enable the spec-helper or you can specify an object enabling only the parts of the spec-helper that you want.
 
 Example:
