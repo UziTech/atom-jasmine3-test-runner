@@ -1,25 +1,29 @@
-[![Build Status](https://travis-ci.org/UziTech/atom-jasmine2-test-runner.svg?branch=master)](https://travis-ci.org/UziTech/atom-jasmine2-test-runner)
-[![Build status](https://ci.appveyor.com/api/projects/status/bvae9y9u3okp7tk8/branch/master?svg=true)](https://ci.appveyor.com/project/UziTech/atom-jasmine2-test-runner/branch/master)
-[![Dependencies Status](https://david-dm.org/UziTech/atom-jasmine2-test-runner/status.svg)](https://david-dm.org/UziTech/atom-jasmine2-test-runner)
-[![Greenkeeper badge](https://badges.greenkeeper.io/UziTech/atom-jasmine2-test-runner.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/UziTech/atom-jasmine3-test-runner.svg?branch=master)](https://travis-ci.org/UziTech/atom-jasmine3-test-runner)
+[![Build status](https://ci.appveyor.com/api/projects/status/f2pv3bvp2rm0ot2p?svg=true)](https://ci.appveyor.com/project/UziTech/atom-jasmine3-test-runner)
+[![Dependencies Status](https://david-dm.org/UziTech/atom-jasmine3-test-runner/status.svg)](https://david-dm.org/UziTech/atom-jasmine3-test-runner)
+[![Greenkeeper badge](https://badges.greenkeeper.io/UziTech/atom-jasmine3-test-runner.svg)](https://greenkeeper.io/)
 
-# Atom Jasmine 2.x Test Runner
+# Atom Jasmine 3.x Test Runner
 
-By default, Atom runs your tests with Jasmine 1.3 (for more information on testing packages in Atom, please [see the Atom Flight Manual](http://flight-manual.atom.io/hacking-atom/sections/writing-specs/#running-specs)). Atom allows you to specify a custom test runner using the `atomTestRunner` field in your `package.json`, but implementing a custom test runner is not straightforward. This module allows you to transition your specs to Jasmine 2.x with minimal fuss.
+By default, Atom runs your tests with Jasmine 1.3 (for more information on testing packages in Atom, please
+[see the Atom Flight Manual](http://flight-manual.atom.io/hacking-atom/sections/writing-specs/#running-specs)).
+Atom allows you to specify a custom test runner using the `atomTestRunner` field in your `package.json`, but
+implementing a custom test runner is not straightforward. This module allows you to transition your specs to
+Jasmine 3.x with minimal fuss.
 
-![screenshot](./screenshots/atom-jasmine2-test-runner.gif)
+![screenshot](./screenshots/atom-jasmine3-test-runner.gif)
 
 ## Installation
 
 ```
-$ apm install [--save-dev] atom-jasmine2-test-runner
+$ apm install [--save-dev] atom-jasmine3-test-runner
 ```
 
 ## Usage
 
 ### Transition from Jasmine v1.3
 
-There is legacy support for transitioning to Jasmine 2.x from 1.3.
+There is legacy support for transitioning to Jasmine 3.x from 1.3.
 
 By default any specs with a file name matching `*-spec-v1.(js|coffee)` will be ran by the default Atom test runner after any new tests are ran.
 
@@ -31,15 +35,17 @@ If you want to use all the default options, simply pass the module name as the `
 {
   "name": "my-package",
   // ...
-  "atomTestRunner": "atom-jasmine2-test-runner"
+  "atomTestRunner": "atom-jasmine3-test-runner"
 }
 ```
 
-Note that your `package.json` may be cached by Atom's compile cache when running tests with Atom's GUI test runner, so if adding or changing that field doesn't seem to work, try quitting and restarting Atom.
+Note that your `package.json` may be cached by Atom's compile cache when running tests with Atom's GUI test runner, so
+if adding or changing that field doesn't seem to work, try quitting and restarting Atom.
 
 ### Programmatic Usage
 
-If you'd like to perform more customization of your testing environment, you can create a custom runner while still utilizing atom-jasmine2-test-runner for most of the heavy lifting. First, set `atomTestRunner` to a _relative_ path to a file:
+If you'd like to perform more customization of your testing environment, you can create a custom runner while still utilizing
+atom-jasmine3-test-runner for most of the heavy lifting. First, set `atomTestRunner` to a _relative_ path to a file:
 
 ```javascript
 {
@@ -49,10 +55,10 @@ If you'd like to perform more customization of your testing environment, you can
 }
 ```
 
-Then export a test runner created via the atom-jasmine2-test-runner from `./spec/custom-runner.js`:
+Then export a test runner created via the atom-jasmine3-test-runner from `./spec/custom-runner.js`:
 
 ```javascript
-const { createRunner } = require('atom-jasmine2-test-runner');
+const { createRunner } = require('atom-jasmine3-test-runner');
 
 // optional options to customize the runner
 const extraOptions = {
@@ -61,7 +67,7 @@ const extraOptions = {
 };
 
 const optionalConfigurationFunction = function() {
-  // If provided, atom-jasmine2-test-runner will call this function before jasmine is started
+  // If provided, atom-jasmine3-test-runner will call this function before jasmine is started
   // so you can do whatever you'd like with the global variables.
   // (i.e. add custom matchers, require plugins, etc.)
   require("some-jasmine-plugin");
@@ -90,7 +96,8 @@ module.exports = createRunner(extraOptions, optionalConfigurationFunction);
 
 **`createRunner([options,] [callback])`**
 
-Returns a test runner created with the given `options` and `callback`. Both parameters are optional. The returned value can be exported from your `atomTestRunner` script for Atom to consume.
+Returns a test runner created with the given `options` and `callback`. Both parameters are optional. The returned value
+can be exported from your `atomTestRunner` script for Atom to consume.
 
 -   `options` - An object specifying customized options:
 
@@ -153,7 +160,10 @@ atom.config.set("editor.autoIndent", false)
   attachToDom: true
 ```
 
-This will add the function `jasmine.attachToDOM(element)` to allow you to easily attach elements to the DOM and it takes care of removing the elements after every test so you don't need to worry about them messing with your other tests. If you want an element to be attached to the DOM for multiple tests you can call `jasmine.attachToDOM` in a `beforeEach` function.
+This will add the function `jasmine.attachToDOM(element)` to allow you to easily attach elements to the DOM and it
+takes care of removing the elements after every test so you don't need to worry about them messing with your other
+tests. If you want an element to be attached to the DOM for multiple tests you can call `jasmine.attachToDOM` in a
+`beforeEach` function.
 
 ##### CI
 ```
@@ -210,7 +220,7 @@ This will also include the Atom custom version of [jasmine-jquery](https://githu
 
 Uses [jasmine2-focused](https://github.com/UziTech/jasmine2-focused)
 
-This will include [jasmine-focused](https://github.com/atom/jasmine-focused#readme) (modified for Jasmine 2.x)
+This will include [jasmine-focused](https://github.com/atom/jasmine-focused#readme) (modified for Jasmine 3.x)
 
 This includes the functions `ffdescribe`, `fffdescribe`, `ffit`, and `fffit`.
 
@@ -221,7 +231,7 @@ This includes the functions `ffdescribe`, `fffdescribe`, `ffit`, and `fffit`.
 
 Uses [jasmine2-json](https://github.com/UziTech/jasmine2-json)
 
-This will include [jasmine-json](https://github.com/atom/jasmine-json#readme) (modified for Jasmine 2.x)
+This will include [jasmine-json](https://github.com/atom/jasmine-json#readme) (modified for Jasmine 3.x)
 
 This includes the matcher `.toEqualJson(object)` and will give a detailed message on failure.
 
@@ -254,7 +264,7 @@ If these tests pass they will fail and if they fail they will pass but still out
 
 Uses [jasmine2-tagged](https://github.com/UziTech/jasmine2-tagged)
 
-This will include [jasmine-tagged](https://github.com/atom/jasmine-tagged#readme) (modified for Jasmine 2.x)
+This will include [jasmine-tagged](https://github.com/atom/jasmine-tagged#readme) (modified for Jasmine 3.x)
 
 This includes the functions `jasmine.setIncludedTags([tags])` and `jasmine.includeSpecsWithoutTags(bool)` to allow you to filter tests easily.
 
@@ -263,16 +273,19 @@ This includes the functions `jasmine.setIncludedTags([tags])` and `jasmine.inclu
   mockClock: true
 ```
 
-This will mock the `setTimeout` and `setInterval` functions, as well as a few others, so you can test a process that happens on a timer with the `advanceClock` function.
+This will mock the `setTimeout` and `setInterval` functions, as well as a few others, so you can test a process that
+happens on a timer with the `advanceClock` function.
 
 When this is enabled you will need to call `jasmine.useRealClock()` if you want to use `setTimeout` or `setInterval` like usual.
 
-This is similar to calling [jasmine.clock().install()](https://jasmine.github.io/2.6/introduction#section-Jasmine_Clock)
+This is similar to calling [jasmine.clock().install()](https://jasmine.github.io/2.9/introduction#section-Jasmine_Clock)
 
 ##### Mock Local Storage
 ```
   mockLocalStorage: true
 ```
+
+Uses [jasmine-local-storage](https://github.com/UziTech/jasmine-local-storage)
 
 This includes the functions `mockLocalStorage()` and `unmockLocalStorage()` to allow you to mock localStorage.
 
@@ -283,14 +296,16 @@ You will have to call the `mockLocalStorage()` function in-order to start mockin
   pathwatcher: true
 ```
 
-This will include the [pathwatcher](https://www.npmjs.com/package/pathwatcher) module and try to warn you about any leaking subscriptions for paths after each test
+This will include the [pathwatcher](https://www.npmjs.com/package/pathwatcher) module and try to warn you about any
+leaking subscriptions for paths after each test
 
 ##### Profile
 ```
   profile: true
 ```
 
-This will include the functions `measure(description, function)` and `profile(description, function)` which will write the time the function takes to `console.log`
+This will include the functions `measure(description, function)` and `profile(description, function)` which will write
+the time the function takes to `console.log`
 
 ##### Set
 ```
@@ -322,4 +337,5 @@ describe('Testing', function () {
 
 # Credits
 
-A huge thank you to @BinaryMuse for creating [atom-mocha-test-runner](https://github.com/BinaryMuse/atom-mocha-test-runner) and giving me a place to start.
+A huge thank you to @BinaryMuse for creating [atom-mocha-test-runner](https://github.com/BinaryMuse/atom-mocha-test-runner)
+and giving me a place to start.
