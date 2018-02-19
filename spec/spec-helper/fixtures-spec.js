@@ -13,6 +13,8 @@ describe("fixtures", function () {
 	});
 
 	it("should resolve a regular package", function () {
-		expect(_ => { path.resolve(atom.packages.resolvePackagePath("tree-view")); }).not.toThrow();
+		expect(() => {
+			path.resolve(atom.packages.resolvePackagePath("tree-view"));
+		}).not.toThrow();
 	});
 });
