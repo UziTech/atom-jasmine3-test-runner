@@ -16,7 +16,7 @@ Jasmine 3.x with minimal fuss.
 ## Installation
 
 ```
-$ apm install [--save-dev] atom-jasmine3-test-runner
+$ npm install [--save-dev] atom-jasmine3-test-runner
 ```
 
 ## Usage
