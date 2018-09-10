@@ -317,12 +317,12 @@ This will include the function `jasmine.unspy(object, method)` to allow you to r
 
 ### Writing Tests
 
-[Jasmine 2.9 documentation](https://jasmine.github.io/2.9/introduction)
+[Jasmine 3.2 documentation](https://jasmine.github.io/api/3.2/global)
 
 ```javascript
 describe('Testing', function () {
   it('works', function () {
-    expect(thisVariable).toBeTheAnswerToTheUltimateQuestionOfLifeTheUniverseAndEverything();
+    expect(42).toBeTheAnswerToTheUltimateQuestionOfLifeTheUniverseAndEverything();
   });
 });
 ```
