@@ -317,7 +317,7 @@ This will include the function `jasmine.unspy(object, method)` to allow you to r
 
 ### Writing Tests
 
-[Jasmine 3.2 documentation](https://jasmine.github.io/api/3.2/global)
+[Jasmine 3.3 documentation](https://jasmine.github.io/api/3.3/global)
 
 ```javascript
 describe('Testing', function () {
