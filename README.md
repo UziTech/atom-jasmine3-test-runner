@@ -1,7 +1,6 @@
 [![Build Status](https://travis-ci.org/UziTech/atom-jasmine3-test-runner.svg?branch=master)](https://travis-ci.org/UziTech/atom-jasmine3-test-runner)
 [![Build status](https://ci.appveyor.com/api/projects/status/f2pv3bvp2rm0ot2p?svg=true)](https://ci.appveyor.com/project/UziTech/atom-jasmine3-test-runner)
 [![Dependencies Status](https://david-dm.org/UziTech/atom-jasmine3-test-runner/status.svg)](https://david-dm.org/UziTech/atom-jasmine3-test-runner)
-[![Greenkeeper badge](https://badges.greenkeeper.io/UziTech/atom-jasmine3-test-runner.svg)](https://greenkeeper.io/)
 
 # Atom Jasmine 3.x Test Runner
 
