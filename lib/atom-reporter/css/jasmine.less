@@ -1,5 +1,4 @@
 // converted from https://github.com/atom/atom/blob/master/static/jasmine.less
-
 @background-color: hsl(0, 0%, 98%);
 @tab-color: #7282a1;
 @tab-active-color: #4372d0;
@@ -194,11 +193,29 @@ body.minimize-specs {
 		}
 
 		> .suite {
-			> .description {
-				font-size: 18px;
-				font-weight: bold;
-			}
 			margin-bottom: 20px;
+
+			> .suite-exceptions {
+				.j3-suite-toggle {
+					float: right;
+					cursor: pointer;
+					opacity: 0;
+					color: #999;
+				}
+
+				.j3-suite-toggle:hover {
+					color: #333;
+				}
+
+				&:hover .j3-suite-toggle {
+					opacity: 1;
+				}
+
+				> .description {
+					font-size: 18px;
+					font-weight: bold;
+				}
+			}
 		}
 
 		.spec {
@@ -232,22 +249,23 @@ body.minimize-specs {
 		}
 	}
 
-	.result-message {
+	.j3-result-message {
 		font-size: 16px;
 		font-weight: bold;
 		color: @failed-color;
 		padding: 5px 0;
+		white-space: pre-wrap;
 	}
 
-	.should-fail .result-message {
+	.should-fail .j3-result-message {
 		color: @passed-color;
 	}
 
-	.deprecation .result-message {
+	.deprecation .j3-result-message {
 		color: darken(@skipped-color, 20%);
 	}
 
-	.result-message.deprecation-message {
+	.j3-result-message.deprecation-message {
 		font-weight: normal;
 		color: darken(@skipped-color, 20%);
 		line-height: 1.4;
@@ -292,18 +310,11 @@ body.minimize-specs {
 			visibility: hidden;
 		}
 	}
-
-	.result-message.fail,
-	.stack-trace.padded {
-		text-overflow: ellipsis;
-		display: -webkit-box;
-		-webkit-box-orient: vertical;
-		-webkit-line-clamp: 10;
-		overflow: hidden;
-
-		&.expanded {
-			-webkit-line-clamp: inherit;
-			// overflow: hidden;
-		}
-	}
+	// .j3-result-message.fail,
+	// .j3-stack-trace.padded {
+	// 	// text-overflow: ellipsis;
+	// 	display: -webkit-box;
+	// 	-webkit-box-orient: vertical;
+	// 	-webkit-line-clamp: 10;
+	// }
 }
