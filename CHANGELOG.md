@@ -1,3 +1,10 @@
+# [4.3.0](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.2.0...v4.3.0) (2019-04-22)
+
+
+### Features
+
+* **testPackages:** Add option `testPackages` ([be81bd4](https://github.com/UziTech/atom-jasmine3-test-runner/commit/be81bd4))
+
 # [4.2.0](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.1.4...v4.2.0) (2019-04-15)
 
 
