@@ -1,3 +1,10 @@
+## [4.3.1](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.3.0...v4.3.1) (2019-04-23)
+
+
+### Bug Fixes
+
+* **testPackages:** Fix `testPackages` as string ([2b65338](https://github.com/UziTech/atom-jasmine3-test-runner/commit/2b65338))
+
 # [4.3.0](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.2.0...v4.3.0) (2019-04-22)
 
 
