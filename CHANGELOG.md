@@ -1,3 +1,10 @@
+## [4.3.2](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.3.1...v4.3.2) (2019-05-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency glob to ^7.1.4 ([7eb0286](https://github.com/UziTech/atom-jasmine3-test-runner/commit/7eb0286))
+
 ## [4.3.1](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.3.0...v4.3.1) (2019-04-23)
 
 
