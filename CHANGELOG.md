@@ -1,3 +1,10 @@
+## [4.3.3](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.3.2...v4.3.3) (2019-05-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency semver to ^6.1.0 ([9762c22](https://github.com/UziTech/atom-jasmine3-test-runner/commit/9762c22))
+
 ## [4.3.2](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.3.1...v4.3.2) (2019-05-08)
 
 
