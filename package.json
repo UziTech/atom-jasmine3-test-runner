@@ -36,6 +36,6 @@
     "@semantic-release/npm": "^5.1.13",
     "@semantic-release/release-notes-generator": "^7.3.0",
     "eslint": "^6.1.0",
-    "semantic-release": "^15.13.19"
+    "semantic-release": "^15.13.21"
   }
 }
