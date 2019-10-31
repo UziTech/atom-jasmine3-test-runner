@@ -29,6 +29,7 @@ jobs:
     - stage: release 🎉
       if: branch = master && type != pull_request
       script:
+        - nvm install node
         - npm install
         - npm run semantic-release
 
