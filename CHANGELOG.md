@@ -1,3 +1,10 @@
+## [4.3.11](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.3.10...v4.3.11) (2020-01-31)
+
+
+### Bug Fixes
+
+* **deps:** Update deps ([94a9982](https://github.com/UziTech/atom-jasmine3-test-runner/commit/94a9982b7917c3520afa5d4ae2a0e8c7bf080d6a))
+
 ## [4.3.10](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.3.9...v4.3.10) (2019-12-14)
 
 
