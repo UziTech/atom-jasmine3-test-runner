@@ -1,3 +1,10 @@
+## [4.3.12](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.3.11...v4.3.12) (2020-01-31)
+
+
+### Bug Fixes
+
+* update spec helpers ([b4d927d](https://github.com/UziTech/atom-jasmine3-test-runner/commit/b4d927d23c6842c241bd6131e1ee148a26367b92))
+
 ## [4.3.11](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.3.10...v4.3.11) (2020-01-31)
 
 
