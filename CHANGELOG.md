@@ -1,3 +1,11 @@
+## [4.3.13](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.3.12...v4.3.13) (2020-02-07)
+
+
+### Bug Fixes
+
+* allow activating package in beforeAll ([8726a17](https://github.com/UziTech/atom-jasmine3-test-runner/commit/8726a17da263eedfd82717847a96bdac82e59b94))
+* only show setup view when needed ([86088ef](https://github.com/UziTech/atom-jasmine3-test-runner/commit/86088efd5b4c30cd8fa965a14af4c1f3566f174a))
+
 ## [4.3.12](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.3.11...v4.3.12) (2020-01-31)
 
 
