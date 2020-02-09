@@ -1,3 +1,15 @@
+# [4.4.0](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.3.13...v4.4.0) (2020-02-09)
+
+
+### Bug Fixes
+
+* add pausing state for long running spec ([8ccf7da](https://github.com/UziTech/atom-jasmine3-test-runner/commit/8ccf7dad3feb2ba50c5351a8e84018375bbfaad2))
+
+
+### Features
+
+* add pause button ([c40f4c4](https://github.com/UziTech/atom-jasmine3-test-runner/commit/c40f4c4cdfebb3a8bb3d14c8483238d23303346c))
+
 ## [4.3.13](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.3.12...v4.3.13) (2020-02-07)
 
 
