@@ -51,6 +51,40 @@ describe("Atom Reporter", function () {
 		});
 	});
 
+	zdescribe("failing in afterAll", function () {
+		afterAll(function () {
+			fail();
+		});
+
+		it("should fail because of afterAll", function () {
+
+		});
+	});
+
+	zdescribe("failing in afterEach", function () {
+		afterEach(function () {
+			fail();
+		});
+
+		it("should fail because of afterEach", function () {
+
+		});
+	});
+
+	zdescribe("deprecated in after functions", function () {
+		afterAll(function () {
+			env.deprecated("Deprecated in describe afterAll");
+		});
+
+		afterEach(function () {
+			env.deprecated("Deprecated in describe afterEach");
+		});
+
+		it("should fail because of deprecation in afterEach", function () {
+
+		});
+	});
+
 	describe("passing", function () {
 		it("should pass", function () {
 			pass();
