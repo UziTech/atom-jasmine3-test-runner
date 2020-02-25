@@ -7,6 +7,7 @@
 @passed-color: #5cb85c;
 @failed-color: #d9534f;
 @skipped-color: #f0ad4e;
+@started-color: #5587ec;
 @pending-color: #eee;
 
 body {
@@ -157,6 +158,14 @@ body.minimize-specs {
 
 			&.skipped {
 				color: @skipped-color;
+			}
+
+			&.started {
+				color: @started-color;
+
+				&::before {
+					transform: scale(2);
+				}
 			}
 
 			&.pending {
