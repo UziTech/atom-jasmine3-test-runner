@@ -1,3 +1,13 @@
+## [4.4.2](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.4.1...v4.4.2) (2020-02-25)
+
+
+### Bug Fixes
+
+* pause on restart ([dead6a1](https://github.com/UziTech/atom-jasmine3-test-runner/commit/dead6a14c131dabdec7cc026bd886cb4d72411d6))
+* remove unnecessary stack lines ([4589466](https://github.com/UziTech/atom-jasmine3-test-runner/commit/458946665531a351623aefa60e8516e28020adf5))
+* show current spec ([7b87036](https://github.com/UziTech/atom-jasmine3-test-runner/commit/7b870361cf7a0ac3cdcad59a6ff28829d6c77003))
+* sticky buttons ([13054a3](https://github.com/UziTech/atom-jasmine3-test-runner/commit/13054a358e0b8159f3e6efae0fd5e2a0fc7396dc))
+
 ## [4.4.1](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.4.0...v4.4.1) (2020-02-11)
 
 
