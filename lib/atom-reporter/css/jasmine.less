@@ -163,13 +163,19 @@ body.minimize-specs {
 
 			&.skipped {
 				color: @skipped-color;
+
+				&::before {
+					transition: transform 0s;
+				}
 			}
 
 			&.started {
 				color: @started-color;
+				animation: 3s spin 2s ease-in infinite;
 
 				&::before {
 					transform: scale(2);
+					transition: transform 0s;
 				}
 			}
 
@@ -339,4 +345,18 @@ body.minimize-specs {
 	// 	-webkit-box-orient: vertical;
 	// 	-webkit-line-clamp: 10;
 	// }
+}
+
+@keyframes spin {
+	from {
+		transform: rotateY(0);
+	}
+
+	33% {
+		transform: rotateY(360deg);
+	}
+
+	to {
+		transform: rotateY(360deg);
+	}
 }
