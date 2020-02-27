@@ -1,3 +1,10 @@
+## [4.4.3](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.4.2...v4.4.3) (2020-02-27)
+
+
+### Bug Fixes
+
+* current spec spin ([ee46734](https://github.com/UziTech/atom-jasmine3-test-runner/commit/ee4673441ab61b0312a17d861c8c3e297780d5fa))
+
 ## [4.4.2](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.4.1...v4.4.2) (2020-02-25)
 
 
