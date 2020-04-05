@@ -1,3 +1,10 @@
+## [4.4.4](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.4.3...v4.4.4) (2020-04-05)
+
+
+### Bug Fixes
+
+* Use performance.now() in profile spec-helper ([#109](https://github.com/UziTech/atom-jasmine3-test-runner/issues/109)) ([f61ee70](https://github.com/UziTech/atom-jasmine3-test-runner/commit/f61ee70b5ac0f5f8fd72b50c1b462182b0e0e5fc))
+
 ## [4.4.3](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.4.2...v4.4.3) (2020-02-27)
 
 
