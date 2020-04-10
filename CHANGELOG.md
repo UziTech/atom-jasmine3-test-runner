@@ -1,3 +1,11 @@
+## [4.4.5](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.4.4...v4.4.5) (2020-04-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency semver to ^7.2.2 ([#111](https://github.com/UziTech/atom-jasmine3-test-runner/issues/111)) ([b0ed733](https://github.com/UziTech/atom-jasmine3-test-runner/commit/b0ed733055347c97e4770c961667dd989dfdb8d3))
+* **deps:** update spec-helper jasmine2-atom-matchers to ^1.1.3 ([#112](https://github.com/UziTech/atom-jasmine3-test-runner/issues/112)) ([f78b2eb](https://github.com/UziTech/atom-jasmine3-test-runner/commit/f78b2ebcc49b21074b4b7e23d82ebdec14477b58))
+
 ## [4.4.4](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.4.3...v4.4.4) (2020-04-05)
 
 
