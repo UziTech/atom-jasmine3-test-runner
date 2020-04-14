@@ -24,7 +24,7 @@
     "glob": "^7.1.6",
     "grim": "^2.0.2",
     "jasmine": "~3.5.0",
-    "semver": "^7.2.3",
+    "semver": "^7.3.2",
     "temp": "^0.9.1",
     "underscore-plus": "^1.7.0"
   },
