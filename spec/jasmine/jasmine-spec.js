@@ -510,6 +510,7 @@ describe("Jasmine 3.x", function () {
 		beforeEach(function () {
 			foo = {
 				setBar: function (value) {
+					// eslint-disable-next-line no-unused-vars
 					bar = value;
 				}
 			};
@@ -556,6 +557,7 @@ describe("Jasmine 3.x", function () {
 		beforeEach(function () {
 			foo = {
 				setBar: function (value) {
+					// eslint-disable-next-line no-unused-vars
 					bar = value;
 				}
 			};
