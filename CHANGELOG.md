@@ -1,3 +1,10 @@
+## [4.4.8](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.4.7...v4.4.8) (2020-06-16)
+
+
+### Bug Fixes
+
+* update jasmine2-atom-matchers to v1.1.4 ([#126](https://github.com/UziTech/atom-jasmine3-test-runner/issues/126)) ([79ac41b](https://github.com/UziTech/atom-jasmine3-test-runner/commit/79ac41ba13f3d4982bc2fdd78744ee1f47cd203b))
+
 ## [4.4.7](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.4.6...v4.4.7) (2020-04-15)
 
 
