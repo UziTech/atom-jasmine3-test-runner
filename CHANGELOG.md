@@ -1,3 +1,10 @@
+## [4.4.9](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.4.8...v4.4.9) (2020-07-20)
+
+
+### Bug Fixes
+
+* use install path to require spec helper ([486aa7c](https://github.com/UziTech/atom-jasmine3-test-runner/commit/486aa7cf7f7868582e52cd54bb5f82d76788beda))
+
 ## [4.4.8](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.4.7...v4.4.8) (2020-06-16)
 
 
