@@ -1,3 +1,16 @@
+# [5.0.0](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.4.9...v5.0.0) (2020-07-20)
+
+
+### Bug Fixes
+
+* include spec helpers as  dependencies ([2f71d2c](https://github.com/UziTech/atom-jasmine3-test-runner/commit/2f71d2c454202f44de3d14552f961d71b10dce82))
+
+
+### BREAKING CHANGES
+
+* spec helpers will now be included as dependencies but still turned off by
+default unless you enable them with the `specHelper` option
+
 ## [4.4.9](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v4.4.8...v4.4.9) (2020-07-20)
 
 
