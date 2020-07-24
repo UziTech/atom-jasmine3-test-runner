@@ -1,3 +1,10 @@
+## [5.0.2](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.0.1...v5.0.2) (2020-07-24)
+
+
+### Bug Fixes
+
+* revert to jasmine v3.5.0 ([1cafe52](https://github.com/UziTech/atom-jasmine3-test-runner/commit/1cafe52c7a0de0abc53db2c33437710d45b77248))
+
 ## [5.0.1](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.0.0...v5.0.1) (2020-07-24)
 
 
