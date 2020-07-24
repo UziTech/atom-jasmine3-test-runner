@@ -1,3 +1,11 @@
+## [5.0.3](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.0.2...v5.0.3) (2020-07-24)
+
+
+### Bug Fixes
+
+* prevent loading specs more than once ([8a144ab](https://github.com/UziTech/atom-jasmine3-test-runner/commit/8a144abbbba61e1d4ac8817ddb7d52a3228a05ff))
+* **deps:** update jasmine to v3.6.0 ([a6f77f3](https://github.com/UziTech/atom-jasmine3-test-runner/commit/a6f77f385b74284715120868d4407efa907a84b8))
+
 ## [5.0.2](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.0.1...v5.0.2) (2020-07-24)
 
 
