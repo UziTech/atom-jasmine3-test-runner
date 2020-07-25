@@ -1,3 +1,10 @@
+## [5.0.4](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.0.3...v5.0.4) (2020-07-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency jasmine to ~3.6.1 ([7000185](https://github.com/UziTech/atom-jasmine3-test-runner/commit/7000185fff5910643ddcc2f3c6b951e836a25463))
+
 ## [5.0.3](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.0.2...v5.0.3) (2020-07-24)
 
 
