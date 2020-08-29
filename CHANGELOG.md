@@ -1,3 +1,10 @@
+## [5.0.6](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.0.5...v5.0.6) (2020-08-29)
+
+
+### Bug Fixes
+
+* allow output to log-file ([987ad1f](https://github.com/UziTech/atom-jasmine3-test-runner/commit/987ad1fcd077a858494fd8f6843b31991828c3fc))
+
 ## [5.0.5](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.0.4...v5.0.5) (2020-07-29)
 
 
