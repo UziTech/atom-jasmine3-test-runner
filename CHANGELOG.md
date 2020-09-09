@@ -1,3 +1,10 @@
+## [5.0.7](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.0.6...v5.0.7) (2020-09-09)
+
+
+### Bug Fixes
+
+* output once in ci ([2de6c83](https://github.com/UziTech/atom-jasmine3-test-runner/commit/2de6c834ee1711b82f563d080c648a1caa647933))
+
 ## [5.0.6](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.0.5...v5.0.6) (2020-08-29)
 
 
