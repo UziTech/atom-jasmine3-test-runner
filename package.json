@@ -8,6 +8,7 @@
   "scripts": {
     "test": "atom --test ./spec",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "semantic-release": "semantic-release"
   },
   "keywords": [
