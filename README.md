@@ -111,7 +111,7 @@ can be exported from your `atomTestRunner` script for Atom to consume.
     -   `testPackages` `[default: []]` - Array of packages to include for testing. This will usually be the same packages listed in [`APM_TEST_PACKAGES`](https://github.com/atom/ci#how-do-i-install-other-atom-packages-that-my-package-build-depends-on) if using atom/ci for continuous integration  
     -   `random` `[default: false]` - Run your tests in semi-random order
     -   `seed` `[default: random]` - Sets the randomization seed if randomization is turned on
-      - `silentInstallation` `[default false]` - Suppresses the test dependency installation messages
+      - `silentInstallation` `[default: false]` - Suppresses the spec helper installation messages
 
 #### Spec Helpers
 This will include Atom's [spec-helper](http://flight-manual.atom.io/hacking-atom/sections/writing-specs/#custom-matchers).
