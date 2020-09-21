@@ -1,3 +1,10 @@
+# [5.1.0](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.0.8...v5.1.0) (2020-09-21)
+
+
+### Features
+
+* add silentInstallation option ([#156](https://github.com/UziTech/atom-jasmine3-test-runner/issues/156)) ([986f08b](https://github.com/UziTech/atom-jasmine3-test-runner/commit/986f08b47ebbf7180dab2a871429f83b153c6433))
+
 ## [5.0.8](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.0.7...v5.0.8) (2020-09-18)
 
 

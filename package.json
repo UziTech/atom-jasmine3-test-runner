@@ -1,6 +1,6 @@
 {
   "name": "atom-jasmine3-test-runner",
-  "version": "5.0.8",
+  "version": "5.1.0",
   "description": "Run your Atom package tests using Jasmine 3.x",
   "repository": "https://github.com/UziTech/atom-jasmine3-test-runner",
   "main": "index.js",
