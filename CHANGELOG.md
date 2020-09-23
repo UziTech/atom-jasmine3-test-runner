@@ -1,3 +1,10 @@
+## [5.1.1](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.1.0...v5.1.1) (2020-09-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency etch to ^0.14.1 ([#157](https://github.com/UziTech/atom-jasmine3-test-runner/issues/157)) ([bc2ae18](https://github.com/UziTech/atom-jasmine3-test-runner/commit/bc2ae18eec9e2a30aa35ae85517a880ce8830cc7))
+
 # [5.1.0](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.0.8...v5.1.0) (2020-09-21)
 
 
