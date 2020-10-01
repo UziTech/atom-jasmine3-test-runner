@@ -1,3 +1,11 @@
+## [5.1.2](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.1.1...v5.1.2) (2020-10-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency jasmine2-atom-matchers to ^1.1.7 ([18a040e](https://github.com/UziTech/atom-jasmine3-test-runner/commit/18a040e0790e64511806afcf5cac088f669539ed))
+* escape dot in glob ([#159](https://github.com/UziTech/atom-jasmine3-test-runner/issues/159)) ([fab482f](https://github.com/UziTech/atom-jasmine3-test-runner/commit/fab482f6afc457d91f3037b945a4f730a90473d8))
+
 ## [5.1.1](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.1.0...v5.1.1) (2020-09-23)
 
 
