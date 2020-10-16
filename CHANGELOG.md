@@ -1,3 +1,10 @@
+## [5.1.4](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.1.3...v5.1.4) (2020-10-16)
+
+
+### Bug Fixes
+
+* don't fail if only legacy tests ([2f73c52](https://github.com/UziTech/atom-jasmine3-test-runner/commit/2f73c52e7cff154aa6ee7980b74c3c53f0477b84))
+
 ## [5.1.3](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.1.2...v5.1.3) (2020-10-16)
 
 
