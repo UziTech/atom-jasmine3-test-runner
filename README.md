@@ -40,7 +40,7 @@ If you want to use all the default options, simply pass the module name as the `
 Note that your `package.json` may be cached by Atom's compile cache when running tests with Atom's GUI test runner, so
 if adding or changing that field doesn't seem to work, try quitting and restarting Atom.
 
-## Writing TypeScript Tests
+### Writing TypeScript Tests
 
 ⚠ NOTE: If you use a [custom runner](#Programmatic-Usage) that file (`custom-runner.js`) must be a `.js` file.
 
@@ -50,7 +50,7 @@ You must use [`atom-ts-transpiler`](https://www.npmjs.com/package/atom-ts-transp
 npm i -D atom-ts-transpiler typescript
 ```
 
-In your `package.json` file you must add a `""`
+In your `package.json` file you must add a `"atomTranspilers"` property.
 
 ```javascript
 {
