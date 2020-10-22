@@ -1,3 +1,10 @@
+## [5.1.5](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.1.4...v5.1.5) (2020-10-22)
+
+
+### Bug Fixes
+
+* search for .ts extension ([5db9981](https://github.com/UziTech/atom-jasmine3-test-runner/commit/5db9981094df7fdcc7ac3e2d09b1c9529209bdf3))
+
 ## [5.1.4](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.1.3...v5.1.4) (2020-10-16)
 
 
