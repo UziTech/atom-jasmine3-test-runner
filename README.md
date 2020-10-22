@@ -40,6 +40,34 @@ If you want to use all the default options, simply pass the module name as the `
 Note that your `package.json` may be cached by Atom's compile cache when running tests with Atom's GUI test runner, so
 if adding or changing that field doesn't seem to work, try quitting and restarting Atom.
 
+## Writing TypeScript Tests
+
+⚠ NOTE: If you use a [custom runner](#Programmatic-Usage) that file (`custom-runner.js`) must be a `.js` file.
+
+You must use [`atom-ts-transpiler`](https://www.npmjs.com/package/atom-ts-transpiler) to transpile `.ts` files to `.js` on the fly in Atom.
+
+```bash
+npm i -D atom-ts-transpiler typescript
+```
+
+In your `package.json` file you must add a `""`
+
+```javascript
+{
+  "name": "my-package",
+  // ...
+  "atomTranspilers": [
+    {
+      "transpiler": "atom-ts-transpiler",
+      "glob": "{!(node_modules)/**/,}*.ts?(x)",
+      "options": {...}
+    }
+  ]
+}
+```
+
+For more options see the [`atom-ts-transpiler` documentation](https://github.com/smhxx/atom-ts-transpiler/wiki/Setup-&-Configuration)
+
 ### Programmatic Usage
 
 If you'd like to perform more customization of your testing environment, you can create a custom runner while still utilizing
