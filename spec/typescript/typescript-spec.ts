@@ -1,6 +1,6 @@
 describe("typescript", () => {
 	it("should pass", () => {
-		//// @ts-ignore
+		// @ts-ignore
 		pass();
 	});
 });
