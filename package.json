@@ -13,9 +13,9 @@
     }
   ],
   "scripts": {
-    "test": "atom --test ./spec && tsc --noEmit",
+    "test": "atom --test ./spec",
     "lint": "eslint .",
-    "tsc": "tsc"
+    "tsc": "tsc --noEmit"
   },
   "keywords": [
     "atom",

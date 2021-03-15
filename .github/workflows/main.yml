@@ -30,18 +30,28 @@ jobs:
     - name: Run tests 👩🏾‍💻
       run: atom --test spec
 
-  Lint:
+  Types:
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: NPM install
         run: npm ci
-      - name: Lint ✨
-        run: npm run lint
+      - name: Check Types ✅
+        run: npm run tsc
+
+    Lint:
+      if: "!contains(github.event.head_commit.message, '[skip ci]')"
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+        - name: NPM install
+          run: npm ci
+        - name: Lint ✨
+          run: npm run lint
 
   Release:
-    needs: [Test, Lint]
+    needs: [Test, Types, Lint]
     if: github.ref == 'refs/heads/master' &&
       github.event.repository.fork == false
     runs-on: ubuntu-latest
