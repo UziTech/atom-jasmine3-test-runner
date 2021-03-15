@@ -16,6 +16,7 @@
 			"experimentalObjectRestSpread": true
 		}
 	},
+	"ignorePatterns": ["node_modules/", "types/*.d.ts"],
 	"globals": {
 		"atom": false,
 		"pass": false,
