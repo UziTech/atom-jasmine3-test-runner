@@ -270,4 +270,4 @@ export interface RunnerOptions {
  *   started so you can do whatever you'd like with the global variables. (i.e. add custom matchers, require plugins, etc.)
  * @returns Returns a test runner created with the given `options` and `callback`.
  */
-export function createRunner(options?: RunnerOptions, optionalConfigurationFunction?: Function): TestRunner
+export function createRunner(options?: RunnerOptions, optionalConfigurationFunction?: () => void): TestRunner
