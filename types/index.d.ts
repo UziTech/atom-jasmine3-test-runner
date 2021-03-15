@@ -186,7 +186,7 @@ export interface RunnerOptions {
 	 *
 	 * @default `false` {@link [TimeReporter](https://github.com/atom/atom/blob/master/spec/time-reporter.coffee)}
 	 */
-	timeReporter: boolean
+	timeReporter?: boolean
 
 	/**
 	 * File extension that indicates that the file contains tests
