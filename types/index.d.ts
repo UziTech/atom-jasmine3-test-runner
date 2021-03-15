@@ -1,6 +1,6 @@
 import type { TestRunner } from "atom"
 //@ts-ignore
-import type { Reporter } from "jasmine"
+import type * as Jasmine from "jasmine"
 
 export interface SpecHelpers {
 	/**
@@ -207,7 +207,7 @@ export interface RunnerOptions {
 	 *
 	 * @default `the Default reporter`
 	 */
-	reporter?: Reporter
+	reporter?: Parameters<Jasmine["addReporter"]>[0]
 
 
 	/**
