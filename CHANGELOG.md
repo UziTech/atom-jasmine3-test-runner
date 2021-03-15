@@ -1,3 +1,10 @@
+## [5.2.1](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.2.0...v5.2.1) (2021-03-15)
+
+
+### Bug Fixes
+
+* make timeReporter optional ([9bbc775](https://github.com/UziTech/atom-jasmine3-test-runner/commit/9bbc77545dcb704326c78a160751a5111f80eb2f))
+
 # [5.2.0](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.1.9...v5.2.0) (2021-03-15)
 
 
