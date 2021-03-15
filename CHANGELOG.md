@@ -1,3 +1,17 @@
+# [5.2.0](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.1.9...v5.2.0) (2021-03-15)
+
+
+### Bug Fixes
+
+* fix optionalConfigurationFunction type ([20b209b](https://github.com/UziTech/atom-jasmine3-test-runner/commit/20b209b1d7b7a047467ed4af24f686c249734f70))
+
+
+### Features
+
+* add types for createRunner ([cd4589f](https://github.com/UziTech/atom-jasmine3-test-runner/commit/cd4589f46169a23048744b0645ef18759bc5758d))
+* add types for RunnerOptions ([23cd9a2](https://github.com/UziTech/atom-jasmine3-test-runner/commit/23cd9a262a4987b6cce1f4d097bc1a408bef12af))
+* add types for SpecHelpers ([a7f2c99](https://github.com/UziTech/atom-jasmine3-test-runner/commit/a7f2c99d9e04dca00da41de19c06cf7c61f74d27))
+
 ## [5.1.9](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.1.8...v5.1.9) (2021-03-02)
 
 
