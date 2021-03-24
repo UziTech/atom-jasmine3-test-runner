@@ -13,7 +13,9 @@
     }
   ],
   "scripts": {
-    "test": "atom --test ./spec",
+    "test": "npm run test:ui && npm run test:default-runner",
+    "test:ui": "atom --test ./spec",
+    "test:default-runner": "cd spec/fixtures/default-runner && npm run test",
     "lint": "eslint .",
     "tsc": "tsc --noEmit"
   },

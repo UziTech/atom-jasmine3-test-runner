@@ -1,0 +1,10 @@
+{
+  "name": "atom-jasmine3-test-runner-default-runner",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "atomTestRunner": "../../../",
+  "scripts": {
+    "test": "atom --test ./spec"
+  }
+}
