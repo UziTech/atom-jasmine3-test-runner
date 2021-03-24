@@ -28,7 +28,7 @@ jobs:
     - name: Install dependencies
       run: apm ci
     - name: Run tests 👩🏾‍💻
-      run: atom --test spec
+      run: npm run test
 
   Types:
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
