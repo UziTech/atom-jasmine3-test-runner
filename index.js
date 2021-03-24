@@ -2,5 +2,5 @@
 
 import createRunner from "./lib/create-runner";
 
-module.exports = createRunner();
-module.exports.createRunner = createRunner;
+exports.default = createRunner();
+exports.createRunner = createRunner;
