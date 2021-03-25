@@ -41,6 +41,7 @@
     "jasmine2-focused": "^1.1.1",
     "jasmine2-json": "^1.1.1",
     "jasmine2-tagged": "^1.1.1",
+    "symlink-dir": "^4.1.0",
     "temp": "^0.9.4",
     "underscore-plus": "^1.7.0"
   },
