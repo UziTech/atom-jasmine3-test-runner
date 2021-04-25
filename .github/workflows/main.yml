@@ -28,7 +28,9 @@ jobs:
     - name: Install dependencies
       run: apm ci
     - name: Run tests 👩🏾‍💻
-      run: npm run test
+      run: |
+        apm install atom-ide-base
+        npm run test
 
   Types:
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
