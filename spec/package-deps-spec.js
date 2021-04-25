@@ -22,9 +22,9 @@ describe("package-deps", () => {
 		await new Promise((resolve) => {
 			setTimeout(() => {
 				resolve();
-			}, 10000);
+			}, 20000);
 		});
-	}, 11000);
+	}, 21000);
 
 	it("installs the dependencies in the correct test path", function () {
 		const allPackages = atom.packages.getAvailablePackageNames();
