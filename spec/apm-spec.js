@@ -1,12 +1,17 @@
-"use babel";
-import { spawnSync } from "child_process";
-import { readdirSync } from "fs";
+/** @babel */
+
+import { exec } from "child_process";
+import { promisify } from "util";
+import { readdir } from "fs";
 import { join } from "path";
 
+const execAsync = promisify(exec);
+const readdirAsync = promisify(readdir);
+
 describe("apm", () => {
-	it("installs the dependencies in the correct test path", function () {
-		spawnSync("apm install atom-ide-base", { shell: true, stdio: "inherit", encoding: "utf8" });
-		let packages = readdirSync(join(atom.configDirPath, "packages"));
+	it("installs the dependencies in the correct test path", async () => {
+		await execAsync("apm install atom-ide-base");
+		const packages = await readdirAsync(join(atom.configDirPath, "packages"));
 		expect(packages).toContain("atom-ide-base");
-	});
+	}, 20000);
 });
