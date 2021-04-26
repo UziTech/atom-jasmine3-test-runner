@@ -10,8 +10,8 @@ const readdirAsync = promisify(readdir);
 
 describe("apm", () => {
 	it("installs the dependencies in the correct test path", async () => {
-		await execAsync("apm install atom-ide-base");
+		await execAsync("apm install test-engines-package");
 		const packages = await readdirAsync(join(atom.configDirPath, "packages"));
-		expect(packages).toContain("atom-ide-base");
-	}, 20000);
+		expect(packages).toContain("test-engines-package");
+	}, 60000);
 });
