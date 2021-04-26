@@ -1,3 +1,11 @@
+## [5.2.3](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.2.2...v5.2.3) (2021-04-26)
+
+
+### Bug Fixes
+
+* set env.ATOM_HOME to temp directory ([#243](https://github.com/UziTech/atom-jasmine3-test-runner/issues/243)) ([ef5e6cd](https://github.com/UziTech/atom-jasmine3-test-runner/commit/ef5e6cd96197290602a1f5294af11420e317afc2))
+* use junction for windows testPackages ([43b329a](https://github.com/UziTech/atom-jasmine3-test-runner/commit/43b329ace5142c31027d67488ca5dcd4d4e88664))
+
 ## [5.2.2](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.2.1...v5.2.2) (2021-03-18)
 
 
