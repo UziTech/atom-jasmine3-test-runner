@@ -29,7 +29,6 @@ jobs:
       run: apm ci
     - name: Run tests 👩🏾‍💻
       run: |
-        apm install atom-ide-base
         npm run test
 
   Types:
