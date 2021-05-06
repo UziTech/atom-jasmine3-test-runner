@@ -1,3 +1,10 @@
+## [5.2.4](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.2.3...v5.2.4) (2021-05-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency glob to ^7.1.7 ([6a58a34](https://github.com/UziTech/atom-jasmine3-test-runner/commit/6a58a34d569acc02611843ea88b7ab10be2d28ec))
+
 ## [5.2.3](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.2.2...v5.2.3) (2021-04-26)
 
 
