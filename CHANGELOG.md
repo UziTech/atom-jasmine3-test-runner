@@ -1,3 +1,10 @@
+## [5.2.5](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.2.4...v5.2.5) (2021-05-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency find-parent-dir to ^0.3.1 ([4947f9b](https://github.com/UziTech/atom-jasmine3-test-runner/commit/4947f9b9ea1ef659809e43b8a224842d45778018))
+
 ## [5.2.4](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.2.3...v5.2.4) (2021-05-06)
 
 
