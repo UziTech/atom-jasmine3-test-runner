@@ -28,7 +28,7 @@
   "license": "MIT",
   "dependencies": {
     "etch": "^0.14.1",
-    "find-parent-dir": "^0.3.0",
+    "find-parent-dir": "^0.3.1",
     "fs-plus": "3.1.1",
     "glob": "^7.1.7",
     "grim": "^2.0.3",
