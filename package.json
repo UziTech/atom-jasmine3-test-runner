@@ -58,6 +58,6 @@
   },
   "optionalDependencies": {
     "@types/atom": "^1.40.10",
-    "@types/jasmine": "^3.7.6"
+    "@types/jasmine": "^3.7.7"
   }
 }
