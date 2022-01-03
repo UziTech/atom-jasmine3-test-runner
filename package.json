@@ -36,7 +36,7 @@
     "jasmine-local-storage": "^1.1.1",
     "jasmine-pass": "^1.1.0",
     "jasmine-should-fail": "^1.1.7",
-    "jasmine-unspy": "^1.1.1",
+    "jasmine-unspy": "^1.1.2",
     "jasmine2-atom-matchers": "^1.1.9",
     "jasmine2-focused": "^1.1.1",
     "jasmine2-json": "^1.1.1",
