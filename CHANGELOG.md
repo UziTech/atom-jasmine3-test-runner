@@ -1,3 +1,10 @@
+## [5.2.10](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.2.9...v5.2.10) (2022-01-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency jasmine-unspy to ^1.1.2 ([5e46655](https://github.com/UziTech/atom-jasmine3-test-runner/commit/5e466554d169f82eaa463ba2765f50d94d13e694))
+
 ## [5.2.9](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.2.8...v5.2.9) (2021-10-18)
 
 
