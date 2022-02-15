@@ -1,3 +1,11 @@
+## [5.2.11](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.2.10...v5.2.11) (2022-02-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency jasmine-local-storage to ^1.1.2 ([f81b93c](https://github.com/UziTech/atom-jasmine3-test-runner/commit/f81b93cf5cba94be85ae3c2be956d80c8fa77c0c))
+* **deps:** update dependency jasmine2-focused to ^1.1.2 ([ac9b251](https://github.com/UziTech/atom-jasmine3-test-runner/commit/ac9b2510b29aa2517da6560ad10ea0ee739ed648))
+
 ## [5.2.10](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.2.9...v5.2.10) (2022-01-04)
 
 
