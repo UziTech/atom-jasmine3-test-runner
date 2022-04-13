@@ -1,3 +1,11 @@
+## [5.2.12](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.2.11...v5.2.12) (2022-04-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency glob to v8 ([cefa2f4](https://github.com/UziTech/atom-jasmine3-test-runner/commit/cefa2f49cea6904a9f558ad3822e4ba5a99c06a3))
+* fix glob path separator ([392c3e9](https://github.com/UziTech/atom-jasmine3-test-runner/commit/392c3e9f269737d73642db081151a6cde1262fa8))
+
 ## [5.2.11](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.2.10...v5.2.11) (2022-02-15)
 
 
