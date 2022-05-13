@@ -1,3 +1,10 @@
+## [5.2.13](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.2.12...v5.2.13) (2022-05-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency glob to ^8.0.2 ([ba8f133](https://github.com/UziTech/atom-jasmine3-test-runner/commit/ba8f133aca6b6268b3c0abbd0de64500b9d770b7))
+
 ## [5.2.12](https://github.com/UziTech/atom-jasmine3-test-runner/compare/v5.2.11...v5.2.12) (2022-04-13)
 
 
