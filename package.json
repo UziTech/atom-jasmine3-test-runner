@@ -32,7 +32,7 @@
     "fs-plus": "3.1.1",
     "glob": "^8.0.3",
     "grim": "^2.0.3",
-    "jasmine": "~3.10.0",
+    "jasmine": "~4.5.0",
     "jasmine-local-storage": "^1.1.2",
     "jasmine-pass": "^1.1.0",
     "jasmine-should-fail": "^1.1.7",
